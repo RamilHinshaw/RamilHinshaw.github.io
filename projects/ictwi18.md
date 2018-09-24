@@ -1,7 +1,7 @@
 ---
 layout: default
 title: ICT Winter 2018 | Attack of the Forest Creatures
-tags: [ 'unity3d', 'c#', 'gamejam' ]
+tags: [ 'Unity3D', 'C#', 'GameJam' ]
 category: project game
 imgDir: /img/projects/ictwi18/
 description: >-

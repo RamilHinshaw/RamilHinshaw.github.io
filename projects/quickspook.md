@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Project Quickspook
-tags: [ 'unity3d', 'c#', 'ludumdare' ]
+tags: [ 'Unity3D', 'C#', 'Multiplayer' ]
 category: project
 imgDir: /img/projects/quickspook/
 description: A quick horror game a made to scare my friends with my new knowledge of programming multiplayer. The idea was similiar to game called slender man where you go around and college pages but the monster in the game was secretly a player. I would have the person playing the monster roleplay and chase my friend playing the game just to spook him here and there :D

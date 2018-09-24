@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Oot Multiplayer test With PUN
-tags: [ 'unity3d', 'c#' ]
+tags: [ 'Unity3D', 'C#', 'Multiplayer', 'Concept' ]
 category: project game
 imgDir: /img/projects/ootOnline/
 description: Very old project I worked on when Unity was still very new. It is no secret of love the Legend of Zelda franchise and I had this set goal recreating my favorite game from my childhood and getting multiplayer working so my friends and I could play. It was a very weird and frustatrating expereince trying to train my brain on what information the master and clients were suppose to have, but it was a valuable experience.
