@@ -80,6 +80,10 @@
   flex-direction: column;
 }
 
+.flex-hori-start-child{
+  align-self: flex-start;
+}
+
 .flex1{
   -webkit-box-flex: 1;
   -moz-box-flex: 1;

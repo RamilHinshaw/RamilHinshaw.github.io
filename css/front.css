@@ -551,7 +551,6 @@ p {
   /*nav{display: none; }*/
   /*.orange-line {display: none;}*/
 
-
   .orange-line{
     margin-top: 2.3em;
     margin-bottom: 2em;
@@ -566,7 +565,6 @@ p {
   #tag{
     flex-direction: column;
   }
-
 }
 
 

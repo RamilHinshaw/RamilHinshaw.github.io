@@ -15,10 +15,25 @@ imgDir: /img/projects/
         </h4>
         <div class="flex-row flex-center">
           <img class="thumbnail" src="{{page.imgDir}}/splash.png" alt="{{page.title}} splash image">
-          <p class="meta flex3">
-          <!--{{ page.content | strip_html | escape | truncatewords: 80 }}-->
-          {{ page.description }}
-          </p>
+
+          <div class="flex-col-center">
+            <p class="meta flex3">
+            <!--{{ page.content | strip_html | escape | truncatewords: 80 }}-->
+            {{ page.description }}
+            </p>
+
+            <!--<p class="flex-hori-start-child"> DERP </p>-->
+              <div class="flex-row flex-hori-start-child">
+              {% for tags in page.tags %}
+                <!--<div class="tags">-->
+                <a class="tags">
+                  {{ tags }}
+                </a>
+                <!--</div>-->
+              {% endfor %}
+              </div>
+
+          </div>
         </div>
 
         <div class="content-spacing"></div>
