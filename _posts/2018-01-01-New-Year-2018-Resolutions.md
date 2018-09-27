@@ -59,13 +59,14 @@ Now with all the reminiscing out of the way, I will have a more ambitious goal f
 For my 2018 New Year's Resolutions, I will be a bit more ambitious this year:
 
 - Learn OpenGL and create my Own Game Engine and use it for a GameJam
-- At least 1 app for every two months of the app store (while using React and Android Studio at least once)
-- Get my CCNA Certification and learn more of Cyber Security
+<!--- At least 1 app for every two months of the app store (while using React and Android Studio at least once)-->
+- At least 1 app onto the app store (while using React and/or Android Studio at least once)
+<!--- Get my CCNA Certification and learn more of Cyber Security-->
 - Contribute to open source projects and have an active GitHub
-- Lose Weight to 140 pounds then start on muscle growth
-- Complete my Coop Internship Project this Year
+<!--- Lose Weight to 140 pounds then start on muscle growth-->
+<!--- Complete my Coop Internship Project this Year-->
 - Learn QMake and create an Open source project with it
-- Create a GameBoy Emulator
+<!--- Create a GameBoy Emulator-->
 - Learn Assembly
 - Create a Project in Python
 - Learn Godot Engine
@@ -73,9 +74,9 @@ For my 2018 New Year's Resolutions, I will be a bit more ambitious this year:
 - Actively be on GitHub, Stack Overflow, Youtube, Twitter, LeetCode, HackerRank, and Code Wars
 
 <div class="content-spacing"></div>
-BONUS
-- Learn how to play Piano
-- Get to N3 Level Japanese
-- Increase Artistic Skills (Improve 3D Modeling/Sculpting and Drawing)
+<!--BONUS-->
+<!--- Learn how to play Piano-->
+<!--- Get to N3 Level Japanese-->
+<!--- Increase Artistic Skills (Improve 3D Modeling/Sculpting and Drawing)-->
 
 These are my goals and they will be my achievements for this year.
