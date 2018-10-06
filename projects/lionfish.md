@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Lionfish App
+pdate: 2017-07-01
 tags: ['HTML', 'CSS', 'Javascript', 'React', 'Android', 'IOS']
 category: project
 imgDir: /img/projects/lionfish/

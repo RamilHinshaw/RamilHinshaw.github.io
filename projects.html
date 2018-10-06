@@ -7,13 +7,23 @@ imgDir: /img/projects/
 
   <!--<div class="content-spacing"></div>-->
     <ul class="list">
-      {% for page in site.pages %}
-        {% if page.category contains 'project' %}
 
+      {% assign pages = (site.pages | sort: 'pdate') %}
+      {% for page in pages reversed %}
+        {% if page.category contains 'project' %}
           <div class="project-container" onclick="location.href='{{ page.url | relative_url }}';">
-            <h4>
-              <a class="link" href="{{ page.url | relative_url }}" role="link">{{ page.title | escape }}</a>
-            </h4>
+
+            <div class="flex-row">
+              <div class="flex1">
+                <h4>
+                  <a class="link" href="{{ page.url | relative_url }}" role="link">{{ page.title | escape }}</a>
+                </h4>
+              </div>
+
+              <div class="flex-hori-end-child">
+                <p class="project-date"> {{ page.pdate | date: "%B %Y" }} </p>
+              </div>
+            </div>
 
             <div class="flex-row flex-center">
               <img class="thumbnail" src="{{page.imgDir}}/splash.png" alt="{{page.title}} splash image">

@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Oot Multiplayer test With PUN
+pdate: 2015-04-12
 tags: [ 'Unity3D', 'C#', 'Multiplayer', 'Concept' ]
 category: project game
 imgDir: /img/projects/ootOnline/

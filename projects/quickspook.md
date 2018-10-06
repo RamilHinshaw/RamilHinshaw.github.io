@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Project Quickspook
+pdate: 2015-08-02
 tags: [ 'Unity3D', 'C#', 'Multiplayer' ]
 category: project
 imgDir: /img/projects/quickspook/

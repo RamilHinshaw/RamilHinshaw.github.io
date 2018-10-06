@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Character Customization Concept with Blendshapes
+pdate: 2016-05-01
 tags: [ 'Unity3D', 'C#', 'Concept' ]
 category: project game
 imgDir: /img/projects/charactercustomization/
