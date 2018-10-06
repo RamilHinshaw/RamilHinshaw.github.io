@@ -3,7 +3,9 @@ layout: default
 title:  "Testing this Blog derp"
 date:   2017-06-24 03:41:09 -0500
 categories: jekyll update
+published: true
 ---
+
 This is a Test Post. YO!
 
 

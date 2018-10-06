@@ -34,19 +34,32 @@ markdown: kramdown
 #theme: minima
 plugins:
   - jekyll-feed
-  #- jekyll-paginate-v2
+  - jekyll-paginate-v2
+  
 
-#gems: [jekyll-paginate] //OLD
+##################################################
+  
+#exclude:
+  #- Gemfile
+  #- Gemfile.lock
+
+# Produces a cleaner folder structure when using categories
+permalink: /:year/:month/:title.html
+
+# Explicitly turn off the old code
+#paginate: nil
+#paginate_path: nil
+
+# Pagination Settings
+pagination:
+  enabled: true
+  per_page: 3
+  offset: 2
+  permalink: '/page/:num/'
+  title: ':title - page :num of :max'
+  limit: 0
+  sort_field: 'date'
+  sort_reverse: true Collection configurations
 
 
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Project Linkchef
-tags: [ 'Unity3D', 'C#', 'LudumDare' ]
+tags: [ 'Unity3D', 'C#', 'Concept' ]
 category: project
 imgDir: /img/projects/linkchef/
 description: This was a concept project to recreate the dialouge in ocarina of time and understanding linked lists and events. Since I love the Legend of Zelda franchise I went all out on this project and created everything from scratch. For copyright reasons this Link is not the hero of time but the Chef of Hyrule. Also a reference to my friend's internet alias.
