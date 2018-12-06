@@ -4,7 +4,7 @@ title: My New Years Resolutions as a Computer Programmer for 2018
 date: '2018-01-01 07:09:09 -0500'
 categories: personal
 tags: null
-published: true
+published: false
 ---
 
 
