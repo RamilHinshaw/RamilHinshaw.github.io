@@ -519,11 +519,6 @@ a{
   }
 
   .social-logo{
-    /*margin: 25px 25px 5px 25px;*/
-    display: flex;
-    flex: 0 1 auto;
-    justify-content: center;
-    align-items: center;
     padding: 15px;
   }
 
@@ -550,23 +545,20 @@ a{
   .social-box{
 
     width: 75;
-    height: 95;
+    height: 115;
     padding: 45px;
     transform: scale(.92);
   }
 
   .social-logo{
-    /*margin: 25px 25px 5px 25px;*/
-    display: flex;
-    flex: 0 1 auto;
     padding: 0px;
-    margin-top: -15px;
+    margin-top: 15px;
     transform: scale(.75);
   }
 
   .social-link
   {
-  margin-top: 0px;
+  margin-top: 15px;
   font-size: 14px;
   }
 
