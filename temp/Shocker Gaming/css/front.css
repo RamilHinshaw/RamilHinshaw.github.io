@@ -251,6 +251,11 @@ a{
   transform: scale(.85);
 }
 
+.social-box:hover{
+  background-color: #2f2d35;
+  cursor: pointer;
+}
+
 
 #social{
   flex-wrap: wrap;
@@ -356,6 +361,11 @@ a{
   font-weight: lighter;
   font-size: 16px;
   /*letter-spacing: 1.3px;*/
+}
+
+.footer-link:hover{
+  color: #e8cc3e;
+  cursor: pointer;
 }
 
 .test-box{
