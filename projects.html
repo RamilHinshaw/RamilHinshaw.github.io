@@ -37,9 +37,12 @@ imgDir: /img/projects/
                 <!--TAGS LOOP-->
                 <div class="flex-row flex-hori-start-child">
                   {% for tags in page.tags %}
-                  <a href="{{ site.url }}/filter/{{ tags }}.html "class="tags">
-                    {{ tags }}
-                  </a>
+                  <!-- <a href="{{ site.url }}/filter/{{ tags }}.html "class="tags"> -->
+                    <div class="tags">
+                      {{ tags }}
+                    </div>
+
+                  <!-- </a> -->
                   {% endfor %}
                 </div>
 
