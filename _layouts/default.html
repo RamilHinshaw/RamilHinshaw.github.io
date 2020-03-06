@@ -143,6 +143,15 @@
 
     }
 
+    .text-fit
+    {
+      /* width: 80%; */
+      margin: auto;
+      /* background-color: red; */
+    }
+
+
+
 
     .thumbnail{
       margin: 25px 25px 25px 0px;
@@ -152,12 +161,12 @@
           max-height: 100%;
         
     }
-    @media(max-width: 1024px)    
+    @media(max-width: 1337px)    
     {
       .thumbnail{display: none;}
     }
 
-    @media(max-width: 415px)    
+    @media(max-width: 454px)    
     {
 
       nav{
@@ -168,7 +177,7 @@
       nav a{
         padding: 0px 7.3%;
         align-content: stretch;
-        font-size: 7.0vw;
+        font-size: 25px;
         flex-wrap: wrap;
         justify-content: space-around;
       }
@@ -191,14 +200,17 @@
 
         
 
-    <div class="container">
+    <div class="flex-center text-fit ">
         <!--<img class="img-responsive portrait" src="../img/portrait-small.png" alt="Me looking at camera">-->
-        <nav class=" flex-row">
+        <nav class=" flex-center">
           <!--<div class="nav-emptyBlock"></div>-->
           <a class=" flex1" href="/">Home</a>
           <!--<a class="flex-center flex1" href="../index.html#About">About</a>-->
           <a class=" flex1" href="/projects.html">Projects</a>
-          <a class=" flex1" href="/blog.html">Blog</a>
+          <!-- <a class=" flex1" href="/blog.html">Blog</a> -->
+          <a class="flex-center flex1" href="/Resume.pdf">Resume</a> 
+
+
           <!--<a class="flex-center flex1" href="../index.html#Skills">Skills</a>-->
           <!--<a class="flex-center flex1" href="../index.html#Contact">Contact</a>-->
           <!--<a href="javascript:void(0);" class="icon" onclick="toggleCollapse()">&#9776;</a>-->
