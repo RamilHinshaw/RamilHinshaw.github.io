@@ -39,6 +39,16 @@ The game had a trouble start with Unity failing to connect through google's oath
 
 <div class="content-spacing"></div>
 
+Made By the Team "We Like Cats"
+
+    Ramil Hinshaw
+    Desiree Hinshaw
+    Tiffany Huynh
+    Evan Houck
+    Thien Nguyen
+
+<div class="content-spacing"></div>
+
 Links
 -----
 
