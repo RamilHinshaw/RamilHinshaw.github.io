@@ -137,8 +137,9 @@ h3{
   background-color: #d6471e;
   opacity: 0.7;
   height: 1.75px;
-  margin: -1px auto 2px auto;;
-  width: 50%;
+  margin: -1px auto 2px auto;
+  width: 1000px;
+  min-width: 50%;
   min-width: 300px;
 }
 
@@ -361,6 +362,10 @@ p {
 {
   #orange5{ display: none; }
   #orange4{ display: none; }
+
+  .orange-pagebreak{
+    width: 75%;
+  }
 }
 
 @media(max-width: 960px)
@@ -573,7 +578,7 @@ p {
 Credit Gaurav Singh - http://codepen.io/4dgaurav/pen/KDbBe/
 */
 
-.losange, .losange div {
+/* .losange, .losange div {
   margin: 0 auto;
   transform-origin: 50% 50%;
   overflow: hidden;
@@ -594,4 +599,4 @@ Credit Gaurav Singh - http://codepen.io/4dgaurav/pen/KDbBe/
 .losange .los1 img {
   width: 100%;
   height: auto;
-}
+} */

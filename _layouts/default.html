@@ -20,6 +20,11 @@
 
     <style>
 
+    html, body{
+      padding: 0;
+      margin: 0;
+    }
+
     .center{
       display: flex;
       display: -webkit-box;
@@ -94,7 +99,9 @@
 
     .project-container{
       margin: 26px auto;
-      padding: 4px 42px;
+      margin-left: -35px;
+      padding: 4px 20px;
+      /* padding: 5px 10px; */
       background-color: #3a323a;
       border-radius: 6px;
       cursor: pointer;
@@ -113,7 +120,18 @@
       border-bottom: 1.75px solid #d6471e;
       margin-bottom: 20px;
       margin-top: 3px;
+    }
 
+    .project-items{
+      display: -webkit-box;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -moz-box-orient: horizontal;
+      box-orient: horizontal;
+      flex-direction: row;
     }
 
     nav a{
@@ -122,55 +140,79 @@
     }
 
     .content{
-      width: 50%;
-      min-width: 300px;
-      display: flex;
+      /* width: 50%; */
+      margin: auto;
+      padding: 0px;
+      max-width: 1000px;
+      min-width: 50%;
+      /* display: flex;
       flex: 1;
       justify-content: center;
-      align-content: center;
+      align-content: center; */
 
     }
 
     img{
-      display: flex;
-      flex: 1;
+      /* display: flex;
+      flex: 3;
       width: 100%;
       justify-content: center;
       align-content: center;
       max-width: 100%;
       padding-bottom: 18px;
-      margin: auto;
+      margin: auto; */
 
     }
-
-    .text-fit
-    {
-      /* width: 80%; */
-      margin: auto;
-      /* background-color: red; */
-    }
-
-
 
 
     .thumbnail{
-      margin: 25px 25px 25px 0px;
-      /* height: 195px;
-      width: 195px;
-        max-width: 100%;
-          max-height: 100%; */
-        
+      margin-right: 25px;
+      flex-shrink: 0;
     }
-    @media(max-width: 1337px)    
+
+
+    @media(max-width: 660px)    
     {
-      .thumbnail{display: none;}
+      .thumbnail{
+        width: 55%;
+        height: auto;
+      }
+
+      .project-items{
+        -webkit-box-orient: horizontal;
+        -moz-box-orient: horizontal;
+        box-orient: horizontal;
+        flex-direction: column;
+        flex-wrap: nowrap;
+      }
+
+
+      h4{
+        font-size: 18px;
+        margin: 7px;
+      }
+
+      p {
+        font-size: 13px;
+        line-height: 1.35em;
+        margin: 10px 0px 15px 0px;
+        text-align-last: left;
+      }
+
+      .tags
+      {
+        padding: 3px;
+        margin: 2px 3px;
+        font-size: 0.74em;
+
+      }
     }
 
     @media(max-width: 454px)    
     {
 
       nav{
-        flex: auto;\
+        flex: auto;
         justify-content: space-around;
       }
 
