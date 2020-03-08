@@ -2,7 +2,7 @@
 layout: default
 title: Polybrew
 pdate: 2017-05-01
-tags: [ 'Unity3D', 'C#']
+tags: [ 'Unity3D', 'C#', 'Team']
 category: project game
 imgDir: /img/projects/polybrew/
 description: A fun side project I'm working on with a partner on the internet. Similar to my RPG shop idea for Ludum Dare 38 but instead of a shopkeeper you are a Alchemist making various potions. THe best part of the game is it encourages creativity with the ingredients. Just throw things into the cauldron and making something that you can sell to various npcs.
