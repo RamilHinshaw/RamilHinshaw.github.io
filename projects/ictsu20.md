@@ -34,8 +34,10 @@ The game had friendly fire at default so not only did you had to worry about the
 
 ![Picture]( {{page.imgDir}}/3.png)
 
-The game had a trouble start with Unity failing to connect through google's oath servers so it took a bit to get started. The scope of the game was also very large resulting a lot of planned features missing. This was the biggest team size I had to manage and was a lot more difficult than I thought but the experience was worth it. Unfortunately we didn't place understandably. We didn't get to compile and test play the game till the last 10 minutes of the gamejam so there were many bugs in the first version. All in all, I am very happy with the project and this won't deter me from being in another larger group.
+The game had a trouble start with Unity failing to connect through google's oath servers so it took a bit to get started. The scope of the game was also very large resulting a lot of planned features missing. This was the biggest team size I had to manage and was a lot more difficult than I thought but the experience was worth it. Unfortunately we didn't place understandably. We didn't get to compile and test play the game till the last 10 minutes of the gamejam so there were many bugs in the first version. 
 
+![Picture]( {{page.imgDir}}/4.png)
+All in all, I am very happy with the project. Many people seemed to enjoy the game despite its short comming ands it was a very fun project overall. This won't deter me from being in another larger group and instead I'm already planning to be in another large group for the next ICT GameJam this coming summer.
 
 <div class="content-spacing"></div>
 
