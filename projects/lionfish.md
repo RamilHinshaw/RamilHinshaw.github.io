@@ -21,21 +21,8 @@ Lion Fish App
 This app was made for the Big Ocean [Button Challenge](https://herox.com/bigoceanbutton) along with 3 other members.
 I was tasked with the front-end design of the project and used React Native for the cross platform support along with the familiar css styling. 
 
+My Job was to work on the front end of the app and I could use whatever tools I needed to do the job. It was between Xamarin, a cross-platform C# framework for ios and android vs React Native (javascript). I was much more familiar with C# .net but I chose to work with React Native after being impressed by their examples and demos. 
 
+I only had 2 months to learn the framework and create a full app device out of it since I joined the team late and the other developer ghosted the team. It was stressfull but Facebook did a really good job at writing the documentation for React Native and it had everything I needed there. The hardest thing to wrap my head around was the use of props and hot both html and javascript code were one file.
 
-//Talk about
-1. Goal of Project
-2. Possible Problems in the limited time frame
-3. My role and job on the team
-4. Tools that I decided use, along with libaries
-5. Problems I had to overcome
-6. Conclusion
-
-<div class="flex-row">
-<p style="color: red"> TEST </p>
-<p style="font-size: 98px"> TEST </p>
-<p style="padding: 48px"> TEST </p>
-</div>
-
-
-
+This was my first app and my first serious project in a team but it was very challenging and I am happy I took up the challenge to learn something new.
