@@ -1,16 +1,12 @@
 ---
 layout: default
 title: ICT Winter 2020 | Poly Panic
-pdate: {}
-tags:
-  - Unity3D
-  - 'C#'
-  - GameJam
-  - Team-Leader
+pdate: 2020-02-01
+tags: [ 'Unity3D', 'C#', 'GameJam', "Team-Leader" ]
 category: project game
 imgDir: /img/projects/ictwi20/
 description: >-
-  This was a game made for 48 hour the ICT Summer 2020 Gamejam with the theme
+  This was a game made for 48 hour the ICT Winter 2020 Gamejam with the theme
   "The World is Ending". A split-screen 4 player game made in a team of 5. I was
   the leader and programmer of the project.
 published: true
@@ -20,6 +16,9 @@ published: true
 ICT Winter 2020 | Poly Panic
 ================
 
+<div class="content-spacing"></div>
+
+<iframe width="940" height="500" src="https://www.youtube-nocookie.com/embed/QgoBFW-MhMc?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 <div class="content-spacing"></div>
 
   This was a game made for 48 hour the ICT Winter 2020 Gamejam with the theme "The World is Ending". A split-screen 4 player game made in a team of 5. I was the leader and programmer of the project.
