@@ -1,7 +1,7 @@
 ---
 layout: default
 title: ICT Summer 2021 | The Sequel To The Prequel That Never Happened
-pdate: 2021-02-03
+pdate: 2021-07-30
 tags: [ 'Unity3D', 'C#', 'GameJam', "Team-Leader" ]
 category: project game
 imgDir: /img/projects/ictsu21/
