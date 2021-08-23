@@ -1,7 +1,7 @@
 ---
 layout: default
 title: ICT Winter 2021 | Battleship - Lost at Sea
-pdate: 2020-07-03
+pdate: 2021-07-03
 tags: [ 'Godot', 'GDScript', 'GameJam', "Team-Leader" ]
 category: project game
 imgDir: /img/projects/ictsu20/
