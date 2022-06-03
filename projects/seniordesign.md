@@ -14,8 +14,6 @@ published: true
 Speech Assessment To-Go
 ================
 
-This page is still a work in progress!
-
 <div class="content-spacing"></div>
 
 <iframe width="940" height="500" src="https://www.youtube-nocookie.com/embed/iVURoHfrgvo?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
