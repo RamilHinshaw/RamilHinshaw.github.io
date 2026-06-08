@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auto Fullscreen Google Drive Video</title>
+    <style>
+        /* Force the page body to take up exactly 100% of the screen with no scrollbars */
+        html, body {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            background-color: #000; /* Black background to resemble a true media player */
+        }
+
+        /* Stretch the Google Drive iframe to fill every pixel of the window */
+        .fullscreen-video {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- 
+      - Replace YOUR_FILE_ID with your real Google Drive file ID.
+      - "autoplay=1" attempts to start the stream immediately.
+      - "mute=1" is MANDATORY. Browsers forbid autoplay unless the video starts muted.
+    -->
+    <iframe class="fullscreen-video" 
+            src="https://drive.google.com/file/d/1gTzF5MlpjS9SFOCeAkR1jscnn1gDPD8O/preview" 
+            allow="autoplay; fullscreen" 
+			authuser=0
+            allowfullscreen>
+    </iframe>
+
+</body>
+</html>
