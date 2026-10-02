@@ -1,0 +1,69 @@
+#!/usr/bin/env bash
+set -e
+
+REPO="https://github.com/RamilHinshaw/dotfiles"
+DEST="$HOME/.dotfiles"
+
+echo "Install dotfiles from $REPO"
+read -rp "Continue? [y/N] " answer < /dev/tty
+case "$answer" in
+  [yY]*) ;;
+  *) echo "Aborted."; exit 0 ;;
+esac
+
+# Clone or update
+if [ -d "$DEST" ]; then
+  echo "→ Updating existing dotfiles..."
+  cd "$DEST" && git pull
+else
+  echo "→ Cloning dotfiles..."
+  git clone "$REPO" "$DEST"
+fi
+
+cd "$DEST"
+
+# --- nvim ---
+read -rp "Install nvim config? [y/N] " answer < /dev/tty
+case "$answer" in
+  [yY]*)
+    if [ -d "$HOME/.config/nvim" ]; then
+      mv "$HOME/.config/nvim" "$HOME/.config/nvim.bak"
+      echo "→ Backed up existing nvim config"
+    fi
+    mkdir -p "$HOME/.config"
+    ln -sfn "$DEST/.config/nvim" "$HOME/.config/nvim"
+    echo "✓ nvim"
+    ;;
+  *) echo "→ Skipped nvim" ;;
+esac
+
+# --- tmux ---
+read -rp "Install tmux config? [y/N] " answer < /dev/tty
+case "$answer" in
+  [yY]*)
+    if [ -f "$HOME/.tmux.conf" ]; then
+      mv "$HOME/.tmux.conf" "$HOME/.tmux.conf.bak"
+      echo "→ Backed up existing .tmux.conf"
+    fi
+    ln -sfn "$DEST/.tmux.conf" "$HOME/.tmux.conf"
+    echo "✓ tmux"
+    ;;
+  *) echo "→ Skipped tmux" ;;
+esac
+
+# --- bashrc ---
+read -rp "Install .bashrc? [y/N] " answer < /dev/tty
+case "$answer" in
+  [yY]*)
+    if [ -f "$HOME/.bashrc" ]; then
+      mv "$HOME/.bashrc" "$HOME/.bashrc.bak"
+      echo "→ Backed up existing .bashrc"
+    fi
+    ln -sfn "$DEST/.bashrc" "$HOME/.bashrc"
+    echo "✓ .bashrc"
+    ;;
+  *) echo "→ Skipped .bashrc" ;;
+esac
+
+echo ""
+echo "Done."
