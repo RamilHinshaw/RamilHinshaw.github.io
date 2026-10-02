@@ -11,10 +11,14 @@ case "$answer" in
   *) echo "Aborted."; exit 0 ;;
 esac
 
-# Clone or update
+# Clone or update (fresh clone if pull fails)
 if [ -d "$DEST" ]; then
   echo "→ Updating existing dotfiles..."
-  cd "$DEST" && git pull
+  if ! (cd "$DEST" && git pull); then
+    echo "→ Pull failed, re-cloning..."
+    rm -rf "$DEST"
+    git clone "$REPO" "$DEST"
+  fi
 else
   echo "→ Cloning dotfiles..."
   git clone "$REPO" "$DEST"
